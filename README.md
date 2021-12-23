@@ -59,8 +59,13 @@ This ELK server is configured to monitor the following machines:
 |---------------|---------------|
 | Web-1         | 10.0.0.5      |
 | Web-2         | 10.0.0.6      |
+
 These VMs sit behind the load balancer at IP below.  
-| Load Balancer | 40.122.77.122 |
+
+| Load Balancer | IP Address    |
+|---------------|---------------|
+|Red-Team-LB    | 40.122.77.122 |
+
 We have installed the following Beats on these machines:
 -Filebeat 
 -Metricbeat 
